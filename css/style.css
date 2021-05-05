@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    line-height: 28px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+
+/* section navigation */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    margin-right: 50px; 
+}
+
+.menu__link{
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin-left: 40px;
+    color: #1F1534;
+    opacity: 0.5;
+}
+.activ{
+    font-weight: 700;
+    color: #000;
+    opacity: 1;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #0486D7;
+}
+
+/* section navigation end */
+
+/* SECTION HEADLINE */
+
+.headline{
+    display: flex;justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+    margin-bottom: 113px;
+    
+}
+
+.headline__text h1{
+    width: 427px;
+    font-size: 48px;
+    line-height: 56px;
+}
+.headline__text p{
+    width: 445px;
+    margin-bottom: 50px;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+}
+.headline__text a{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFF;
+    padding: 0 40px;
+    border-radius: 55px;
+    background-color: #458FF6;
+}
+
+/* SECTION HEADLINE END */
+
+/* SECTION OUR SERVICES */
+
+.our__center{
+    width: 1250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.our-services{
+    background-image: url(../img/Vector.svg);
+    background-repeat: no-repeat;
+}
+.our-services h2{
+    text-align: center;
+    font-size: 36px;
+    line-height: 56px;
+    margin-bottom: 25px;
+}
+.our-services__line{
+    width: 56px;
+    height: 2px;
+    background-color: #000;
+    border-radius: 10px;
+    margin-bottom: 33px;
+}
+.our-sevices__text{
+    width: 952px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    margin-bottom: 80px;
+}
+
+.our__menu{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 72px;
+    
+}
+.search{
+    padding: 54px 45px 47px 37px;
+    background-color: #fff;
+    box-shadow: 10px 40px 50px rgba(247, 248, 253, 0.4);
+    border-radius: 20px;
+    transition: .4s ease;
+}
+.search:hover{
+    background-color: #fcfcfc;
+}
+.search h3{
+    font-size: 24px;
+    line-height: 56px;
+    margin-top: 22px;
+}
+.search p{
+    width: 266px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+.online-pharmacy{
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    background-color: #fff;
+    transition: .4s ease;
+    padding: 62px 52px 47px 37px;
+    margin-left: 34px;
+}
+.online-pharmacy:hover{
+    background-color: #fcfcfc;
+}
+.online-pharmacy h3{
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 56px;
+}
+.online-pharmacy p{
+    font-size: 16px;
+    line-height: 28px;
+    width: 261px;
+    color: #7D7987;
+}
+
+.consultation{
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    background-color: #fff;
+    transition: .4s ease;
+    padding: 47px 50px 47px 38px;
+    margin-left: 34px;
+}
+.consultation:hover{
+    background-color: #fcfcfc;
+}
+.consultation h3{
+    margin-top: 24px;
+    font-size: 24px;
+    line-height: 56px;
+}
+.consultation p{
+    font-size: 16px;
+    line-height: 28px;
+    width: 261px;
+    color: #7D7987;
+}
+
+.details-infoh{
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    background-color: #fff;
+    transition: .4s ease;
+    padding: 46px 50px 47px 38px;
+    margin-top: 37px;
+    margin-left: 34px;
+}
+.details-infoh:hover{
+    background-color: #fcfcfc;
+}
+.details-infoh h3{
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 56px;
+}
+.details-infoh p{
+    font-size: 16px;
+    line-height: 28px;
+    width: 261px;
+    color: #7D7987;
+}
+
+.emergency-care{
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    background-color: #fff;
+    transition: .4s ease;
+    padding: 62px 45px 46px 38px;
+    margin-top: 37px;
+    margin-left: 34px;
+}
+.emergency-care:hover{
+    background-color: #fcfcfc;
+}
+.emergency-care h3{
+    margin-top: 36px;
+    font-size: 24px;
+    line-height: 56px;
+}
+.emergency-care p{
+    font-size: 16px;
+    line-height: 28px;
+    width: 266px;
+    color: #7D7987;
+}
+
+.tracking{
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    background-color: #fff;
+    transition: .4s ease;
+    padding: 52px 50px 75px 38px;
+    margin-top: 37px;
+    margin-left: 34px;
+    margin-right: 33px;
+}
+.tracking:hover{
+    background-color: #fcfcfc;
+}
+.tracking h3{
+    margin-top: 19px;
+    font-size: 24px;
+    line-height: 56px;
+}
+.tracking p{
+    font-size: 16px;
+    line-height: 28px;
+    width: 261px;
+    color: #7D7987;
+}
+
+.learn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 220px;
+}
+
+.learn__link{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #458FF6;
+    padding: 0 51px;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+}
+
+/* SECTION OUR SERVICES END*/
